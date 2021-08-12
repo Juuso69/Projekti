@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(51, 50, 95);
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+* {
+  text-align: center;
+  font-family: helvetica;
+}
+h2 {
+  color: rgb(148, 26, 219);
+  text-align: center;
+  font-size: 15px;
+}
+
+.topDiv {
+  text-align: center;
+  background-color: rgb(253, 35, 235);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.midDiv {
+  text-align: center;
+  background-color: rgb(253, 35, 235);
+  width: 80%;
+  height: 180px;
+  padding: 0;
+  position: absolute;
+  top: 16%;
+}
