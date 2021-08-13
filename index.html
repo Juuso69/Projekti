@@ -8,20 +8,47 @@
   </head>
   <body>
     <div class="topDiv">
-     <h2>Tieto- ja viestintätekniikan perustehtävät</h2>
+     <h1>Tieto- ja viestintätekniikan perustehtävät</h1>
     </div>
     <br> <br>
     
     <div class="midDiv">
-    <h2>Lisää merkintä</h2>
+    <h2 id="merkki"> Lisää merkintä</h2>
     <form action="">
-    <label for="nimi">Nimi:</label><br>
+    <label for="nimi" id="name">Nimi:</label><br>
     <input type="text" id="nimi" name="nimi" value=""><br>
-    <label for="tieto">Tieto:</label><br>
-    <input type="text" id="tieto" name="tieto" value=""><br><br>
+    <label for="tieto" id="name">Tieto:</label><br>
+    <input type="text" id="tieto" name="tieto" value=""><br>
     <input type="submit" value="Lisää tieto">
     </form>
     </div>
+
+    <div class="lastDiv">
+    <h2> Suoritettavat:</h2>
+    </div>
+    <div class="extraDiv"
+    <form action="">
+    <div class="div1">
+    <input type="checkbox" name="html" id="fix1" value="HTML">
+    <label for="html" id="fix1"> HTML</label><br>
+    </div>
+    <div class="div2">
+    <input type="checkbox" name="css" id="fix2" value="css">
+    <label for="css" id="fix2"> CSS</label><br>
+    </div>
+    <div class="div3">
+    <input type="checkbox" name="java" id="fix3" value="java">
+    <label for="java" id="fix3"> JavaScript</label><br>
+    </div>
+    <div class="div4">
+    <input type="checkbox" name="cd" id="fix4" value="cd">
+    <label for="cd" id="fix4"> CI/CD</label><br><br>
+    </div>
+    <div class="extraDiv2">
+    <input type="submit" value="Merkkaa">
+    </div>
+    </form>
+
 
   </body>
 </html>
