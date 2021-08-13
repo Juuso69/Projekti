@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(51, 50, 95);
+  background-color: rgb(10, 74, 119);
   margin: 0px;
   margin-top: 0px;
   padding: 0px;
@@ -29,7 +29,7 @@ h1 {
 
 .topDiv {
   text-align: center;
-  background-color: rgb(252, 104, 239);
+  background-color: rgb(250, 125, 177);
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,7 +37,7 @@ h1 {
 
 .midDiv {
   text-align: left;
-  background-color: rgb(252, 104, 239);
+  background-color: rgb(250, 125, 177);
   width: 60%;
   position: fixed;
   height: 270px;
