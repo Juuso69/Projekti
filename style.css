@@ -158,3 +158,13 @@ input[type=submit] {
   right: 330px;
   top: 7px;
 }
+
+#tiedot {
+  position: fixed;
+  right: 330px;
+  background-color: rgb(201, 201, 201);
+  top: 45%;
+  height: 30px;
+  left: 270px;
+  width: 750px;
+}
