@@ -14,12 +14,11 @@
     
     <div class="midDiv">
     <h2 id="merkki"> Lisää merkintä</h2>
-    <form action="">
     <label for="nimi" id="name">Nimi:</label><br>
     <input type="text" id="nimi" name="nimi" value=""><br>
     <label for="tieto" id="name">Tieto:</label><br>
     <input type="text" id="tieto" name="tieto" value=""><br>
-    <input type="submit" value="Lisää tieto">
+    <input type="submit" value="Lisää tieto" id="submit" onclick="validate();">
     </form>
     </div>
 
@@ -48,7 +47,7 @@
     <input type="submit" value="Merkkaa">
     </div>
     </form>
-
+    <script src="script.js"></script>
 
   </body>
 </html>
