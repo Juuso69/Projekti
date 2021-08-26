@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(10, 74, 119);
+  background-image: url(https://trancentral.tv/wp-content/uploads/2020/12/wp2601899-space-wallpaper.jpg);
   margin: 0px;
   margin-top: 0px;
   padding: 0px;
@@ -16,34 +16,34 @@ form {
 }
 
 h2 {
-  color: rgb(148, 26, 219);
+  color: rgb(255, 0, 0);
   text-align: left;
   font-size: 20px;
 }
 
 h1 {
-  color: rgb(148, 26, 219);
+  color: rgb(255, 0, 0);
   text-align: center;
   font-size: 20px;
 }
 
 .topDiv {
   text-align: center;
-  background-color: rgb(250, 125, 177);
+  background-color: rgba(255, 255, 255, 0.356);
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 .midDiv {
-  text-align: left;
-  background-color: rgb(250, 125, 177);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.356);
   width: 60%;
   position: fixed;
   height: 270px;
   padding: 0px;
   top: 10%;
-  margin:5px 0 0px 250px;
+  margin: 5px 0 0px 20%;
 }
 
 .lastDiv {
@@ -55,47 +55,52 @@ h1 {
   top: 53%;
   height: 270px;
   padding: 0px;
-  margin:5px 0 0px 250px;
+  margin:5px 0 0px 20%;
 }
 
 .div1 {
   position: fixed;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(255, 255, 255);
   top: 61%;
   height: 30px;
-  left: 270px;
-  width: 750px;
+  left: 0%;
+  width: 60%;
+  margin:5px 0 0px 20%;
 }
 .div2 {
   position: fixed;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(255, 255, 255);
   top: 67%;
   height: 30px;
-  left: 270px;
-  width: 750px;
+  left: 0%;
+  width: 60%;
+  margin:5px 0 0px 20%;
 }
 .div3 {
   position: fixed;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(255, 255, 255);
   top: 73%;
   height: 30px;
-  left: 270px;
-  width: 750px;
+  left: 0%;
+  width: 60%;
+  margin:5px 0 0px 20%;
 }
 .div4 {
   position: fixed;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(255, 255, 255);
   top: 79%;
   height: 30px;
-  left: 270px;
-  width: 750px;
+  left: 0%;
+  width: 60%;
+  margin:5px 0 0px 20%;
 }
 .extraDiv2 {
   position: fixed;
-  left: 20%;
-  width: 60%;
+  left: 0%;
+  width: 62%;
   top: 85%;
   text-align: center;
+  margin:5px 0 0px 19%;
 }
 
 input[type=text], select {
@@ -120,51 +125,73 @@ input[type=submit] {
 }
 
 #name {
-  position: relative;
-  right: 355px;
-  color: rgb(87, 87, 87)
+  position: absolute;
+  left: 3%;
+  color: rgb(255, 255, 255)
 }
 
 #merkki {
   position: relative;
   left: 10px;
-  color: rgb(148, 26, 219);
+  color: rgb(255, 0, 0);
 }
 
 #suoritettavat {
   position: relative;
   left: 10px;
-  color: rgb(148, 26, 219);
+  color: rgb(255, 0, 0);
   font-size: 17px;
 }
 
 #fix1 {
-  position: relative;
-  right: 330px;
+  position: absolute;
+  left: 1%;
   top: 7px;
 }
 #fix2 {
-  position: relative;
-  right: 335px;
+  position: absolute;
+  left: 1%;
   top: 7px;
 }
 #fix3 {
-  position: relative;
-  right: 315px;
+  position: absolute;
+  left: 1%;
   top: 7px;
 }
 #fix4 {
-  position: relative;
-  right: 330px;
+  position: absolute;
+  left: 1%;
   top: 7px;
 }
 
-#tiedot {
+#fixed1 {
+  position: absolute;
+  left: 5%;
+  top: 7px;
+}
+#fixed2 {
+  position: absolute;
+  left: 5%;
+  top: 7px;
+}
+#fixed3 {
+  position: absolute;
+  left: 5%;
+  top: 7px;
+}
+#fixed4 {
+  position: absolute;
+  left: 5%;
+  top: 7px;
+}
+
+#box {
   position: fixed;
   right: 330px;
   background-color: rgb(201, 201, 201);
   top: 45%;
   height: 30px;
-  left: 270px;
-  width: 750px;
+  left: 20%;
+  width: 60%;
+  display: none;
 }

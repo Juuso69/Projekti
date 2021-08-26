@@ -23,7 +23,7 @@
     </form>
     </div>
 
-    <p id="tiedot">testi</p>
+    <p type="text" id="box" value="box">Testi</p>
 
     <div class="lastDiv">
     <h2> Suoritettavat:</h2>
@@ -32,22 +32,22 @@
     <form action="">
     <div class="div1">
     <input type="checkbox" name="html" id="fix1" value="HTML">
-    <label for="html" id="fix1"> HTML</label><br>
+    <label for="html" type="text" id="fixed1" value="html"> HTML</label><br>
     </div>
     <div class="div2">
     <input type="checkbox" name="css" id="fix2" value="css">
-    <label for="css" id="fix2"> CSS</label><br>
+    <label for="css" id="fixed2" value="css"> CSS</label><br>
     </div>
     <div class="div3">
     <input type="checkbox" name="java" id="fix3" value="java">
-    <label for="java" id="fix3"> JavaScript</label><br>
+    <label for="java" id="fixed3" value="javascript"> JavaScript</label><br>
     </div>
     <div class="div4">
     <input type="checkbox" name="cd" id="fix4" value="cd">
-    <label for="cd" id="fix4"> CI/CD</label><br><br>
+    <label for="cd" id="fixed4" value="ci/cd"> CI/CD</label><br><br>
     </div>
     <div class="extraDiv2">
-    <input type="submit" value="Merkkaa">
+    <input type="submit" value="Merkkaa" id="merkkaa" onclick="merkkaa();">
     </div>
     </form>
     <script src="script.js"></script>
