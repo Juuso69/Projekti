@@ -16,13 +16,13 @@ form {
 }
 
 h2 {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: left;
   font-size: 20px;
 }
 
 h1 {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 20px;
 }
@@ -133,35 +133,35 @@ input[type=submit] {
 #merkki {
   position: relative;
   left: 10px;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 #suoritettavat {
   position: relative;
   left: 10px;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 17px;
 }
 
 #fix1 {
   position: absolute;
   left: 1%;
-  top: 7px;
+  top: 20%;
 }
 #fix2 {
   position: absolute;
   left: 1%;
-  top: 7px;
+  top: 20%;
 }
 #fix3 {
   position: absolute;
   left: 1%;
-  top: 7px;
+  top: 20%;
 }
 #fix4 {
   position: absolute;
   left: 1%;
-  top: 7px;
+  top: 20%;
 }
 
 #fixed1 {
